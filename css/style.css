@@ -70,9 +70,21 @@ header article{
     height: 25rem;
 }
 
-main section.content, .main-content{
-background-color: darkred;
+.inverted-divider{
+    transform: rotate(180deg);
+}
+
+.content>article{
+    padding: 3.5rem 0;
+}
+
+main section:first-child{
 margin-top: 5rem;
+}
+
+.gray-bg{
+    margin: -1rem;
+    background-color: #dedede;
 }
 
 .reverse{
@@ -85,7 +97,7 @@ article.example{
     width: 75%;
 }
 
-.example>img{
+.image{
     width: 60%;
     background-color: #1e90ff;
 }
@@ -112,6 +124,7 @@ article.example{
     align-items: center;
     margin: auto;
     padding: 3rem 0;
+    margin-bottom: 5rem;
 }
 
 .stars-bg{
@@ -127,10 +140,6 @@ article.example{
 
 footer section{
     background-color: #23272a;
-}
-
-footer section:first-child{
-    margin-top: 5rem;
 }
 
 .main-footer{
