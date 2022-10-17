@@ -114,6 +114,17 @@ article.example{
     padding: 3rem 0;
 }
 
+.stars-bg{
+    width: 30%;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border: 1px solid black;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+
 footer section{
     background-color: #23272a;
 }
