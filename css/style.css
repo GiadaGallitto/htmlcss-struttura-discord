@@ -70,3 +70,47 @@ article.example{
     margin: auto;
     padding: 3rem 0;
 }
+
+footer section{
+    background-color: #23272a;
+}
+
+footer section:first-child{
+    margin-top: 5rem;
+}
+
+.main-footer{
+    width: 75%;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-footer>div{
+    height: 85%;
+}
+
+.main-footer .left-part{
+    flex-basis: 40%;
+    background-color: #f08080;
+}
+
+.main-footer .right-part{
+    flex-basis: 60%;
+    background-color: #20b2aa;
+}
+
+hr{
+    color: white;
+}
+
+.secondary-footer{
+    background-color: #7fffd4;
+    width: 75%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+}
