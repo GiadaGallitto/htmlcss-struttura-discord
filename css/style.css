@@ -30,13 +30,31 @@ header>nav{
     align-items: center;
 }
 
-article{
+header article{
     background-color: blue;
     width: 60rem;
     height: 25rem;
 }
 
-.main-header>div{
+main>section{
+width: 100%;
+height: 35rem;
+background-color: darkred;
+margin-top: 3rem;
+}
 
+article.example{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.example>img{
+    flex-basis: 60%;
+    background-color: #1e90ff;
+}
+
+.example>div{
+    flex-basis: 30%;
+    background-color: pink;
 }
 
