@@ -36,16 +36,19 @@ header article{
     height: 25rem;
 }
 
-main>section{
+main section.content, .main-content{
 background-color: darkred;
-margin-top: 3rem;
+margin-top: 5rem;
+}
 
+.reverse{
+    flex-direction: row-reverse;
 }
 
 article.example{
     justify-content: center;
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
 .example>img{
@@ -58,3 +61,12 @@ article.example{
     background-color: pink;
 }
 
+.main-example{
+    width: 75%;
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 3rem 0;
+}
