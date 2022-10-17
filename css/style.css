@@ -21,6 +21,30 @@ header>nav{
     margin: auto;
     background-color: yellow;
     margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div{
+    background-color: orange;
+    border: 1px solid black;
+}
+
+nav .logo, nav .login{
+    flex-basis: 20%;
+}
+
+div.logo{
+    justify-content: flex-start;
+}
+
+div.login{
+    justify-content: flex-end;
+}
+
+nav .list-nav{
+    flex-basis: 60%;
+    justify-content: center;
 }
 
 .main-header{
