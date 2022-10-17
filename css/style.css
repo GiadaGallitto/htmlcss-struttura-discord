@@ -48,10 +48,20 @@ nav .list-nav{
 }
 
 .main-header{
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+}
+
+div.header-buttons{
+    flex-direction: row;
+}
+
+.main-header div{
+    background-color: #1e90ff;
+    border: 1px solid black;
 }
 
 header article{
