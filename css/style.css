@@ -15,6 +15,7 @@ header{
     display: flex;
 }
 
+/* Riunire in un'unica classe tutti quelli con la stessa width */
 header>nav{
     width: 75%;
     height: 2.5rem;
@@ -25,6 +26,7 @@ header>nav{
     align-items: center;
 }
 
+/* Da togliere in seguito */
 nav div{
     background-color: orange;
     border: 1px solid black;
@@ -59,11 +61,13 @@ div.header-buttons{
     flex-direction: row;
 }
 
+/* Da togliere in seguito */
 .main-header div{
     background-color: #1e90ff;
     border: 1px solid black;
 }
 
+/* Da togliere in seguito color e height */
 header article{
     background-color: blue;
     width: 60rem;
@@ -82,11 +86,13 @@ main section:first-child{
 margin-top: 5rem;
 }
 
+/* Trovare un'alternativa per il margin (display-block)*/
 .gray-bg{
     margin: -1rem;
     background-color: #dedede;
 }
 
+/* Da togliere in seguito e modificare l'ordine in html sulla specifica section */
 .reverse{
     flex-direction: row-reverse;
 }
@@ -97,12 +103,14 @@ article.example{
     width: 75%;
 }
 
-.image{
+/* Provare a sostituire width con flex-basis, togliere il color */
+.big-col{
     width: 60%;
     background-color: #1e90ff;
 }
 
-.example>div{
+/* Da togliere color in seguito, sostituire width con flex-basis */
+.small-col{
     width: 40%;
     background-color: pink;
     padding: 3rem;
@@ -110,12 +118,14 @@ article.example{
     align-items: center;
 }
 
-.example-text{
+/* Da togliere in seguito color e width */
+.col-text{
     width: 60%;
     margin: auto;
     background-color: fuchsia;
 }
 
+/* Da togliere in seguito width in un'altra classe e color */
 .main-example{
     width: 75%;
     background-color: green;
@@ -127,6 +137,7 @@ article.example{
     margin-bottom: 5rem;
 }
 
+/* Da togliere in seguito border, modificare bene la bg-image */
 .stars-bg{
     width: 30%;
     height: 2.5rem;
@@ -142,6 +153,7 @@ footer section{
     background-color: #23272a;
 }
 
+/* Da togliere in seguito la width generale */
 .main-footer{
     width: 75%;
     height: 35rem;
@@ -150,11 +162,13 @@ footer section{
     margin: auto;
 }
 
+/* Da togliere in seguito border e migliorare height*/
 .main-footer>div{
     height: 85%;
     border: 1px solid black;
 }
 
+/* Da togliere in seguito color */
 .main-footer .left-part{
     flex-basis: 25%;
     background-color: #f08080;
@@ -163,15 +177,18 @@ footer section{
     align-items: flex-start;
 }
 
+/* Da togliere in seguito */
 .left-part>div{
     border: 1px solid magenta;
 }
 
+/* Da togliere in seguito color*/
 .right-part>div{
     flex-basis: 25%;
     border: 1px solid darkblue;
 }
 
+/* Da togliere in seguito color */
 .main-footer .right-part{
     flex-basis: 75%;
     background-color: #20b2aa;
@@ -182,10 +199,12 @@ footer section{
     align-items: center;
 }
 
+
 hr{
     color: white;
 }
 
+/* Da togliere in seguito color, width generale*/
 .secondary-footer{
     background-color: #7fffd4;
     width: 75%;
